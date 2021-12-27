@@ -1,3 +1,2 @@
-# terminal-game-wipname
+# Simple Tic Tac Toe
  
-Survive the horror of the frozen forest after the 1965 nuclear fallout.
