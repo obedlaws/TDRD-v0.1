@@ -41,4 +41,3 @@ if answer.lower().strip() == "y":
 
 else: 
         print("Ok, see you soon")
-        
