@@ -1,4 +1,4 @@
-import ranfunctions
+import backendfunctions
 
 answer = input("""
 |||||||||||||||||||||||||||||||||||||||||||||
@@ -10,15 +10,13 @@ TTTTTTT    DDDDD       RRRRRR     DDDDD
   TTT      DDDDD       R    R     DDDDD
            Treminal DnD Random Dice          
 |||||||||||||||||||||||||||||||||||||||||||||
-     Ready to create your Hero!? (y/n)?
+     Ready to start, Hero!? (y/n)?
 """ )
 
 if answer.lower().strip() == "y":
         answer = input("""
      1. Create New Character  2. Use Dice 3. Exit
         """ )
-
-
 
 else:
         print("Ok, see you soon")
