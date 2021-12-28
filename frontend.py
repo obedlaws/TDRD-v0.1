@@ -1,5 +1,6 @@
 import backendfunctions
 
+
 answer = input("""
 |||||||||||||||||||||||||||||||||||||||||||||
 TTTTTTT    DDDDD       RRRRRR     DDDDD
@@ -15,26 +16,29 @@ TTTTTTT    DDDDD       RRRRRR     DDDDD
         Ready to start, Hero!? (y/n)?
 """ )
 if answer.lower().strip() == "y":
-        
-        answer = input("""
-      ///CHOOSE THE DICE YOU ARE LOOKIN FOR////
+        while True:
+                answer = input("""
+        ///CHOOSE THE DICE YOU ARE LOOKIN FOR////
 
-   1.[D20]  2.[D12]   3.[D10]   4.[D8]   5.[D6]   6.[D4]
+        1.[D20]  2.[D12]   3.[D10]   4.[D8]   5.[D6]   6.[D4]
 
-        """ )
-        if answer == "D20":
-                answer = backendfunctions.dtwenty
-        if answer == "D12":
-                answer = print("YES")
-        if answer == "D10":
-                answer = print("YES")
-        if answer == "D8":
-                answer = print("YES")
-        if answer == "D6":
-                answer = print("YES")
-        if answer == "D4":
-                answer = print("YES")
-                
+                """ )
+                if answer == "D20":
+                        backendfunctions.dtwenty()
+                if answer == "D12":
+                        backendfunctions.dtwelve()
+                if answer == "D10":
+                        backendfunctions.dten()
+                if answer == "D8":
+                        backendfunctions.deight()
+                if answer == "D6":
+                        backendfunctions.dsix()
+                if answer == "D4":
+                        backendfunctions.dfour()
+                else:
+                        print("____________________________________________")
+                        
 
-else:
+else: 
         print("Ok, see you soon")
+        
