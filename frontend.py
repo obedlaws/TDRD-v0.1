@@ -19,20 +19,20 @@ if answer.lower().strip() == "y":
         answer = input("""
       ///CHOOSE THE DICE YOU ARE LOOKIN FOR////
 
-   1. D20   2. D12   3. D10   4. D8   5. D6   6. D4
+   1.[D20]  2.[D12]   3.[D10]   4.[D8]   5.[D6]   6.[D4]
 
         """ )
-        if answer == "1":
+        if answer == "D20":
                 answer = backendfunctions.dtwenty
-        if answer == "2":
+        if answer == "D12":
                 answer = print("YES")
-        if answer == "3":
+        if answer == "D10":
                 answer = print("YES")
-        if answer == "4":
+        if answer == "D8":
                 answer = print("YES")
-        if answer == "5":
+        if answer == "D6":
                 answer = print("YES")
-        if answer == "6":
+        if answer == "D4":
                 answer = print("YES")
                 
 
