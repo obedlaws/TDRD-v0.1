@@ -1,18 +1,6 @@
 # Terminal DnD Generator
 Use this program to generate you stats for you character
-and use virtual dice for D&D
-
-## Simple Dice v0.1
-First version testing around the dice
-
-1. D20
-2. D12
-3. D10
-4. D8
-5. D6
-6. D4
-
-
+and use virtual dice for D&D.
 
 ## Hey! I did this! @obedlaws
 I started this project to be part of my portfolio and
